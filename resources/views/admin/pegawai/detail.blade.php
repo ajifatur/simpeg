@@ -10,7 +10,12 @@
 <div class="row">
 	<div class="col-lg-9">
 		<div class="card">
-            <div class="card-header"><i class="bi-person me-1"></i> {{ $pegawai->nama }} ({{ $pegawai->nip }})</div>
+            <div class="card-header d-sm-flex justify-content-between">
+                <div><i class="bi-person me-1"></i> {{ $pegawai->nama }} ({{ $pegawai->nip }})</div>
+                <div class="btn-group">
+                    <a href="#" class="btn btn-sm btn-primary"><i class="bi-file-pdf me-1"></i> Cetak DRH</a>
+                </div>
+            </div>
             <div class="card-body">
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
