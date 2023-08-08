@@ -17,7 +17,7 @@
                 </div>
             </div>
             <div class="card-body">
-                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <ul class="nav nav-tabs" role="tablist">
                     <li class="nav-item" role="presentation">
                         <button class="nav-link active" id="profil-tab" data-bs-toggle="tab" data-bs-target="#profil" type="button" role="tab" aria-controls="profil" aria-selected="true">Profil</button>
                     </li>
@@ -31,7 +31,7 @@
                         <button class="nav-link" id="arsip-tab" data-bs-toggle="tab" data-bs-target="#arsip" type="button" role="tab" aria-controls="arsip" aria-selected="false">Arsip</button>
                     </li>
                 </ul>
-                <div class="tab-content py-3" id="myTabContent">
+                <div class="tab-content py-3">
                     <div class="tab-pane fade show active" id="profil" role="tabpanel" aria-labelledby="profil-tab">
                         <table class="table table-sm table-hover table-striped mt-3">
                             <tr>
@@ -356,7 +356,193 @@
                         </table>
                     </div>
                     <div class="tab-pane fade" id="jabatan" role="tabpanel" aria-labelledby="jabatan-tab">
-                        Belum tersedia
+			            <p class="fw-bold">Jabatan Struktural</p>
+                        <table class="table table-sm table-hover table-bordered mt-3">
+                            <thead class="bg-light">
+                                <tr>
+                                    <th width="5">No</th>
+                                    <th>Nama</th>
+                                    <th width="150">Nomor SK</th>
+                                    <th width="150">TMT</th>
+                                    <th width="150">Tanggal Selesai</th>
+                                    <th width="50">Opsi</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td colspan="6" align="center"><em>Tidak ada data.</em></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br>
+                        <p class="fw-bold">Jabatan Fungsional</p>
+                        <table class="table table-sm table-hover table-bordered mt-3">
+                            <thead class="bg-light">
+                                <tr>
+                                    <th width="5">No</th>
+                                    <th>Nama</th>
+                                    <th width="150">Nomor SK</th>
+                                    <th width="150">TMT</th>
+                                    <th width="150">Tanggal Selesai</th>
+                                    <th width="50">Opsi</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr bgcolor="#66ffcc">
+                                    <td>1</td>
+                                    <td>Pengolah Data Kepegawaian Pusat</td>
+                                    <td>T/10/UN37/2020</td>
+                                    <td>10/10/2020</td>
+                                    <td>10/10/2025</td>
+                                    <td align="center">
+                                        <div class="btn-group">
+                                            <a href="#" class="btn btn-sm btn-info" data-bs-toggle="tooltip" title="Lihat File"><i class="bi-file-pdf"></i></a>
+                                            <a href="#" class="btn btn-sm btn-warning" data-bs-toggle="tooltip" title="Edit"><i class="bi-pencil"></i></a>
+                                            <a href="#" class="btn btn-sm btn-danger" data-bs-toggle="tooltip" title="Hapus"><i class="bi-trash"></i></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Analis Sistem Informasi dan Jaringan</td>
+                                    <td>T/10/UN37/2018</td>
+                                    <td>10/10/2018</td>
+                                    <td>10/10/2020</td>
+                                    <td align="center">
+                                        <div class="btn-group">
+                                            <a href="#" class="btn btn-sm btn-info" data-bs-toggle="tooltip" title="Lihat File"><i class="bi-file-pdf"></i></a>
+                                            <a href="#" class="btn btn-sm btn-warning" data-bs-toggle="tooltip" title="Edit"><i class="bi-pencil"></i></a>
+                                            <a href="#" class="btn btn-sm btn-danger" data-bs-toggle="tooltip" title="Hapus"><i class="bi-trash"></i></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="tab-pane fade" id="pangkat" role="tabpanel" aria-labelledby="pangkat-tab">
+                        <table class="table table-sm table-hover table-bordered mt-3">
+                            <thead class="bg-light">
+                                <tr>
+                                    <th width="5">No</th>
+                                    <th>Pangkat / Golru</th>
+                                    <th width="150">Nomor SK</th>
+                                    <th width="150">Tanggal SK</th>
+                                    <th width="150">TMT</th>
+                                    <th width="150">Masa Kerja</th>
+                                    <th width="50">Opsi</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>CPNS</td>
+                                    <td>T/10/UN37/2018</td>
+                                    <td>10/10/2018</td>
+                                    <td>01/10/2018</td>
+                                    <td>0 tahun 0 bulan</td>
+                                    <td align="center">
+                                        <div class="btn-group">
+                                            <a href="#" class="btn btn-sm btn-info" data-bs-toggle="tooltip" title="Lihat File"><i class="bi-file-pdf"></i></a>
+                                            <a href="#" class="btn btn-sm btn-warning" data-bs-toggle="tooltip" title="Edit"><i class="bi-pencil"></i></a>
+                                            <a href="#" class="btn btn-sm btn-danger" data-bs-toggle="tooltip" title="Hapus"><i class="bi-trash"></i></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Penata Muda - III/a</td>
+                                    <td>T/10/UN37/2019</td>
+                                    <td>10/10/2019</td>
+                                    <td>01/10/2019</td>
+                                    <td>1 tahun 0 bulan</td>
+                                    <td align="center">
+                                        <div class="btn-group">
+                                            <a href="#" class="btn btn-sm btn-info" data-bs-toggle="tooltip" title="Lihat File"><i class="bi-file-pdf"></i></a>
+                                            <a href="#" class="btn btn-sm btn-warning" data-bs-toggle="tooltip" title="Edit"><i class="bi-pencil"></i></a>
+                                            <a href="#" class="btn btn-sm btn-danger" data-bs-toggle="tooltip" title="Hapus"><i class="bi-trash"></i></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="tab-pane fade" id="unit-kerja" role="tabpanel" aria-labelledby="unit-kerja-tab">
+                        <table class="table table-sm table-hover table-bordered mt-3">
+                            <thead class="bg-light">
+                                <tr>
+                                    <th width="5">No</th>
+                                    <th>Nama</th>
+                                    <th width="150">Nomor SK</th>
+                                    <th width="150">TMT</th>
+                                    <th width="150">Tanggal Selesai</th>
+                                    <th width="50">Opsi</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Direktorat Umum dan Sumber Daya Manusia - Subdirektorat SDM - Seksi Kesejahteraan</td>
+                                    <td>T/10/UN37/2020</td>
+                                    <td>10/10/2020</td>
+                                    <td>10/10/2025</td>
+                                    <td align="center">
+                                        <div class="btn-group">
+                                            <a href="#" class="btn btn-sm btn-info" data-bs-toggle="tooltip" title="Lihat File"><i class="bi-file-pdf"></i></a>
+                                            <a href="#" class="btn btn-sm btn-warning" data-bs-toggle="tooltip" title="Edit"><i class="bi-pencil"></i></a>
+                                            <a href="#" class="btn btn-sm btn-danger" data-bs-toggle="tooltip" title="Hapus"><i class="bi-trash"></i></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>BUHK - Bagian Hukum dan Kepegawaian - Subbagian Pendidik</td>
+                                    <td>T/10/UN37/2020</td>
+                                    <td>10/10/2020</td>
+                                    <td>10/10/2025</td>
+                                    <td align="center">
+                                        <div class="btn-group">
+                                            <a href="#" class="btn btn-sm btn-info" data-bs-toggle="tooltip" title="Lihat File"><i class="bi-file-pdf"></i></a>
+                                            <a href="#" class="btn btn-sm btn-warning" data-bs-toggle="tooltip" title="Edit"><i class="bi-pencil"></i></a>
+                                            <a href="#" class="btn btn-sm btn-danger" data-bs-toggle="tooltip" title="Hapus"><i class="bi-trash"></i></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="tab-pane fade" id="kgb" role="tabpanel" aria-labelledby="kgb-tab">
+                        <table class="table table-sm table-hover table-bordered mt-3">
+                            <thead class="bg-light">
+                                <tr>
+                                    <th width="5">No</th>
+                                    <th>Pangkat / Golru</th>
+                                    <th width="150">Nomor SK</th>
+                                    <th width="150">Tanggal SK</th>
+                                    <th width="150">TMT</th>
+                                    <th width="150">Masa Kerja</th>
+                                    <th width="150">Gaji Pokok</th>
+                                    <th width="50">Opsi</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Penata Muda - III/a</td>
+                                    <td>T/10/UN37/2020</td>
+                                    <td>10/10/2020</td>
+                                    <td>01/10/2020</td>
+                                    <td>2 tahun 0 bulan</td>
+                                    <td>Rp 2,660,700</td>
+                                    <td align="center">
+                                        <div class="btn-group">
+                                            <a href="#" class="btn btn-sm btn-info" data-bs-toggle="tooltip" title="Lihat File"><i class="bi-file-pdf"></i></a>
+                                            <a href="#" class="btn btn-sm btn-warning" data-bs-toggle="tooltip" title="Edit"><i class="bi-pencil"></i></a>
+                                            <a href="#" class="btn btn-sm btn-danger" data-bs-toggle="tooltip" title="Hapus"><i class="bi-trash"></i></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
@@ -366,24 +552,41 @@
 		<div class="card">
             <div class="card-header"><h5 class="card-title mb-0">Kepegawaian</h5></div>
             <div class="card-body">
-                <a href="#" class="btn btn-outline-dark mb-2 me-2">Jabatan</a>
-                <a href="#" class="btn btn-outline-dark mb-2 me-2">Pangkat</a>
-                <a href="#" class="btn btn-outline-dark mb-2 me-2">Unit Kerja</a>
-                <a href="#" class="btn btn-outline-dark mb-2 me-2">KGB</a>
-                <a href="#" class="btn btn-outline-dark mb-2 me-2">Penghargaan</a>
-                <a href="#" class="btn btn-outline-dark mb-2 me-2">Diklat</a>
-                <a href="#" class="btn btn-outline-dark mb-2 me-2">SKP</a>
-                <a href="#" class="btn btn-outline-dark mb-2 me-2">Hukuman Disiplin</a>
-                <a href="#" class="btn btn-outline-dark mb-2 me-2">Kehadiran</a>
-                <a href="#" class="btn btn-outline-dark mb-2 me-2">Cuti</a>
-                <a href="#" class="btn btn-outline-dark mb-2 me-2">Pemberhentian</a>
-                <a href="#" class="btn btn-outline-dark mb-2 me-2">Tunjangan</a>
-                <a href="#" class="btn btn-outline-dark mb-2 me-2">Rekening</a>
-                <a href="#" class="btn btn-outline-dark mb-2 me-2">Tugas Belajar</a>
+                <div class="nav nav-pills" role="tablist">
+                    <a href="#" class="btn btn-outline-dark mb-2 me-2" id="jabatan-tab" data-bs-toggle="tab" data-bs-target="#jabatan" type="button" role="tab" aria-controls="jabatan" aria-selected="true">Jabatan</a>
+                    <a href="#" class="btn btn-outline-dark mb-2 me-2" id="pangkat-tab" data-bs-toggle="tab" data-bs-target="#pangkat" type="button" role="tab" aria-controls="pangkat" aria-selected="true">Pangkat</a>
+                    <a href="#" class="btn btn-outline-dark mb-2 me-2" id="unit-kerja-tab" data-bs-toggle="tab" data-bs-target="#unit-kerja" type="button" role="tab" aria-controls="unit-kerja" aria-selected="true">Unit Kerja</a>
+                    <a href="#" class="btn btn-outline-dark mb-2 me-2" id="kgb-tab" data-bs-toggle="tab" data-bs-target="#kgb" type="button" role="tab" aria-controls="kgb" aria-selected="true">KGB</a>
+                    <a href="#" class="btn btn-outline-dark mb-2 me-2" id="profil-tab" data-bs-toggle="tab" data-bs-target="#profil" type="button" role="tab" aria-controls="profil" aria-selected="true">Penghargaan</a>
+                    <a href="#" class="btn btn-outline-dark mb-2 me-2" id="profil-tab" data-bs-toggle="tab" data-bs-target="#profil" type="button" role="tab" aria-controls="profil" aria-selected="true">Diklat</a>
+                    <a href="#" class="btn btn-outline-dark mb-2 me-2" id="profil-tab" data-bs-toggle="tab" data-bs-target="#profil" type="button" role="tab" aria-controls="profil" aria-selected="true">SKP</a>
+                    <a href="#" class="btn btn-outline-dark mb-2 me-2" id="profil-tab" data-bs-toggle="tab" data-bs-target="#profil" type="button" role="tab" aria-controls="profil" aria-selected="true">Hukuman Disiplin</a>
+                    <a href="#" class="btn btn-outline-dark mb-2 me-2" id="profil-tab" data-bs-toggle="tab" data-bs-target="#profil" type="button" role="tab" aria-controls="profil" aria-selected="true">Kehadiran</a>
+                    <a href="#" class="btn btn-outline-dark mb-2 me-2" id="profil-tab" data-bs-toggle="tab" data-bs-target="#profil" type="button" role="tab" aria-controls="profil" aria-selected="true">Cuti</a>
+                    <a href="#" class="btn btn-outline-dark mb-2 me-2" id="profil-tab" data-bs-toggle="tab" data-bs-target="#profil" type="button" role="tab" aria-controls="profil" aria-selected="true">Pemberhentian</a>
+                    <a href="#" class="btn btn-outline-dark mb-2 me-2" id="profil-tab" data-bs-toggle="tab" data-bs-target="#profil" type="button" role="tab" aria-controls="profil" aria-selected="true">Tunjangan</a>
+                    <a href="#" class="btn btn-outline-dark mb-2 me-2" id="profil-tab" data-bs-toggle="tab" data-bs-target="#profil" type="button" role="tab" aria-controls="profil" aria-selected="true">Rekening</a>
+                    <a href="#" class="btn btn-outline-dark mb-2 me-2" id="profil-tab" data-bs-toggle="tab" data-bs-target="#profil" type="button" role="tab" aria-controls="profil" aria-selected="true">Tugas Belajar</a>
+		        </div>
             </div>
 		</div>
 	</div>
 </div>
+
+@endsection
+
+@section('js')
+
+<script>
+$(document).on("click", ".nav-pills .btn", function(e) {
+	e.preventDefault();
+	$(".nav-tabs .nav-link").removeClass("active");
+});
+$(document).on("click", ".nav-tabs .nav-link", function(e) {
+	e.preventDefault();
+	$(".nav-pills .btn").removeClass("active");
+});
+</script>
 
 @endsection
 
